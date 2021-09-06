@@ -12,13 +12,13 @@ Tu puedes definir como un subtipo a un atributo. Por ejemplo, una `lista` de Pyt
 
 Esto hara que los `tags` se conviertan en una lista de elementos. Aunque esto no declara el tipo de cada uno de los elementos que se encuentran dentro de la lista.
 
-## List fields with type parameter
+## Lista de campos con tipo de parámetro
 
-But Python has a specific way to declare lists with internal types, or "type parameters":
+Pero Python tiene una forma especifica para declarar listas con tipos internos, o "parametros internos":
 
-### Import typing's `List`
+### Importar tipado de `Lista`
 
-First, import `List` from standard Python's `typing` module:
+Primero, importamos la `Lista` desde un modulo estandar de Python `typing` module:
 
 ```Python hl_lines="1"
 {!../../../docs_src/body_nested_models/tutorial002.py!}
