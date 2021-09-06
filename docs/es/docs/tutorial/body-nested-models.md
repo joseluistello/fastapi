@@ -10,7 +10,7 @@ Tu puedes definir como un subtipo a un atributo. Por ejemplo, una `lista` de Pyt
 {!../../../docs_src/body_nested_models/tutorial001.py!}
 ```
 
-This will make `tags` be a list of items. Although it doesn't declare the type of each of the items.
+Esto hara que los `tags` se conviertan en una lista de elementos. Aunque esto no declara el tipo de cada uno de los elementos que se encuentran dentro de la lista.
 
 ## List fields with type parameter
 
